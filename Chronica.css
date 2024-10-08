@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 150px;
+    align-items: center;
+}
+.btn{
+    border: none;
+    color: rgb(32, 32, 32);
+    padding-inline: 40px;
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+}
+body{
+    background-image: linear-gradient(90deg,rgb(4, 79, 218),lime);
+    overflow: scroll;
+}
+.b1:hover{
+    background-color: grey;
+    color: white;
+
+}
+.b2:hover{
+    background-color: grey;
+    color: white;
+
+}
+.b3:hover{
+    background-color: grey;
+    color: white;
+
+}
+.b4:hover{
+    background-color: grey;
+    color: white;
+
+}
+.b5:hover{
+    background-color: grey;
+    color: white;
+}
+h1{
+    position: relative;
+    font-size: 10pc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 30pc;
+    text-align: center;
+    color: rgb(249, 119, 140);
+    background-image: linear-gradient(rgb(139, 17, 227),rgb(63, 3, 63));
+    animation-name: h1;
+    animation-duration: 2s;
+    padding-top: 10%;
+}
+@keyframes h1{
+    0%{
+        height: 0pc;
+        font-size: 0pc;
+    }
+    50%{
+        height: 45pc;
+        font-size: 15pc;
+    }
+    100%{
+        height: 30pc;
+        font-size: 10pc;
+    }
+}
+img{
+    height: 500px;
+    width: fit-content;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
